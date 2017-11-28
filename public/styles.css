@@ -1,0 +1,146 @@
+
+.main {
+    position:relative;
+    border-radius: 0px 15px 15px 15px;
+    background: radial-gradient( at 150% 150%, #985f0d, #1E90FF, #00008B);
+    box-shadow: 0px 0px 20px #000;
+    padding: 50px ;
+    z-index: 5;
+}
+
+p {
+	margin-top: 5%;
+    color: #000;
+    font-size: 19px;
+    font-family: Georgia, serif;
+}
+
+.pad {
+	margin-left: 35%;
+}
+
+.page {
+    font-size: 14px;
+    font-family: Georgia, serif;
+	position: relative;
+	background-color:#3D3D3D;
+	margin:  20px auto;
+	padding: 20px 25px 25px 25px;
+	width: 60%;
+}
+
+.button1{
+	margin-left: 9%;
+}
+
+.button2{
+	margin-left: 25%;
+	margin-top: 20px;
+}
+
+input{
+	background: transparent;
+	width: 240px;
+	height: 25px;
+	overflow: hidden;
+	background: #ddd;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	line-height: 1;
+	border-radius: 0;
+}
+
+.button3{
+	margin-left: 30%;
+	margin-top: 20px;
+}
+
+.button9 {
+	position: relative;
+	display: inline;
+	color: #777674;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+	user-select: none;
+	padding: 1em 2em;
+	outline: none;
+	border-radius: 3px / 100%;
+	background-image:
+	linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%),
+	linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 90%, rgba(255,255,255,.3)),
+	linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+	linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+	linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5)),
+	linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5));
+	background-repeat: no-repeat;
+	background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+	background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+	box-shadow: rgba(0,0,0,.5) 3px 10px 10px -10px;
+}
+.button9:hover {
+	transition: .5s linear;
+	background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+}
+.button9:active {
+	top: 1px;
+}
+
+
+.styled-select select {
+	background: transparent;
+	width: 240px;
+	height: 34px;
+	overflow: hidden;
+	background: url(./images/select.jpg) no-repeat right #ddd;
+	border: 1px solid #ccc;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 1;
+	border-radius: 0;
+	height: 34px;
+	-webkit-appearance: none;
+}
+
+
+.inner {
+	position: relative;
+	background: linear-gradient(to top, #575757, #FFFFFF);
+	border: 0px solid #fff;
+	border-radius: 0px 0px 5px 5px;
+	padding: 50px 25px 50px 25px;
+}
+
+.fail {
+	margin: auto;
+	height: 100px;
+	width: 50%;
+	border: 3px dashed red;
+	text-align: center;
+	font-size: 30pt;
+}
+
+.fail p {
+	font-size: 20pt;
+	vertical-align: middle;
+}
+
+td{
+	border: 1px solid #7D7D7D;
+	color: #000;
+	font-size: 18px;
+	font-family: Georgia, serif;
+}
+
+.disp{
+	display: none;
+}
+
+tr:hover {
+	background: radial-gradient(ellipse, #B0E0E6, #55ddff);
+}
+
+table{
+	margin: auto;
+	margin-top: 20px;
+}

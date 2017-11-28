@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+    <script data-main="config.js" src="require.js"></script>
+    <link type = "text/css" rel = "stylesheet" href = "styles.css"/>
+    <TITLE>8 лабораторная</TITLE>
+</HEAD>
+
+<BODY>
+<div class="page">
+    <div class="inner">
+        <form id="employeeForm">
+            <!--<div id="fail" class="fail disp"><p>Данные о сотрудниках считаны некорректно.</p></div>-->
+            <b>Сотрудник</b><br>
+            <div class="styled-select pad">
+                <select id="selectEmployee" name="selectEmployee">
+                </select>
+            </div>
+            <b>Тарифная ставка ($/час)</b><br>
+            <input class = 'pad' type=text id="tariff" name="tariff" size=37 maxlength=100><br><br>
+            <b>Время переработки (в часах)</b><br>
+            <input class = 'pad'  type=text id="additionalTime" name="additionalTime" size=37 maxlength=100><br><br>
+            <b>Налог на доходы (%)</b><br>
+            <input class = 'pad'  type=text id="tax" name="tax" size=37 maxlength=100><br><br>
+            <b>Высшая категория</b><br>
+            <input type="checkbox" name="category"><br>
+            <button type="submit" class = "button9 button3">Сохранить пареметры</button>
+            <button id = "clear" class = "button9">Очистить форму</button>
+        </form>
+        <button id = "show_avg" class = "button9 button2">Средняя зарплата по отделу</button>
+        <button id = "show_all" class = "button9">Данные обо всех сотрудниках</button>
+        <h4 align="center" id="avg"></h4>
+        <table id="employees"></table>
+    </div>
+</div>
+</BODY>
+</HTML>

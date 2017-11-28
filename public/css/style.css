@@ -1,0 +1,188 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: radial-gradient(grey, white);
+  background-size: 100vw;
+
+}
+.container {
+  width: 800px;
+  margin: 20px auto;
+}
+button {
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+.page-header{
+  margin-top:0;
+}
+
+form {
+  position: relative;
+  color: white;
+}
+#caption_form {
+  color: black;
+  font-family: cursive;
+  text-shadow: 1px 1px 4px #FAEBD7;
+  font-size:28px;
+
+}
+textarea {
+  height: 100px;
+  color: white;
+  font-family: cursive;
+  font-size: 25px;
+}
+textarea:focus {
+  animation: changing 2s infinite;
+  animation-timing-function: ease-in-out;
+  color: white;
+}
+@keyframes changing {
+  0%{color: white; font-family:bold;}
+  25%{color: #650202; }
+  50%{color:#E969A8; }
+  75%{color: yellow;font-family: cursive;}
+  100%{color:red;font-family: bold;}
+}
+.par_1 {
+  font-size: 14pt;
+
+  font-family: cursive;
+}
+.par_2 {
+  font-size: 18pt;
+  font-family: bold;
+  color: blue;
+}
+.par_3{
+  font-size: 16pt;
+  font-style: normal;
+  color: red;
+}
+.par_4 {
+  font-family: cursive;
+  text-transform: uppercase;
+}
+.par_5 {
+  text-shadow: 1px;
+  color: #093;
+}
+
+#romb
+{
+  margin-left: 25%;
+  margin-top: 100px;
+  position: relative;
+}
+#diamond
+{
+  background: aquamarine;
+  height: 200px;
+  transform: rotate(45deg);
+  width: 200px;
+  z-index: -1;
+}
+.diamond1
+{
+  left: 0px;
+  position: absolute;
+}
+.diamond2
+{
+  left: 190px;
+  position: absolute;
+}
+.diamond3
+{
+  align-content: center;
+  position: relative;
+}
+.text
+{
+  animation: light 0.5s infinite alternate;
+  margin-left: 80px;
+  margin-top: 50px;
+  position: absolute;
+  z-index: 3;
+}
+@keyframes light {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.img1{
+  width: 200px;
+  margin-right: 20px;
+  z-index: 5;
+}
+.img1:hover { box-shadow: 0 0 35px gold;}
+
+.img2 {
+  height: 100px;
+  margin: 10%;
+}
+

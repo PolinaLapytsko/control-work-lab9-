@@ -1,0 +1,24 @@
+{
+  "name": "AutomobileInfo",
+  "version": "1.0.0",
+  "description": "Simple information system",
+  "main": "app.js",
+  "author": "Alexandr Kloster",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "^1.15.2",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "jquery":"*"
+  }
+}

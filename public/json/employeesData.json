@@ -1,0 +1,29 @@
+{
+  "employees" :  [
+    {
+      "name" : "Leont'ev",
+      "department" : "Sales",
+      "position" : "Manager"
+    },
+    {
+      "name" : "Pugacheva",
+      "department" : "Developement",
+      "position" : "Project Manager"
+    },
+    {
+      "name" : "Pit",
+      "department" : "Testing",
+      "position" : "Average tester"
+    },
+    {
+      "name" : "Putin",
+      "department" : "Management",
+      "position" : "CEO"
+    },
+    {
+      "name" : "Egan",
+      "department" : "HR",
+      "position" : "HR specialist"
+    }
+  ]
+}
